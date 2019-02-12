@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Samer Elkheir</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    </head>
+
+
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+        <!--Navigation bar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand text-light">Samer Elkheir</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsible-navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="collapsible-navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" data-value="home" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-value="about" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-value="projects" href="#projects">Projects</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <!--Header-->
+        <div class="jumbotron bg-primary" id="home">
+            <div class="container text-center">
+                <h1 class="display-1 font-weight-bold pb-3">Samer Elkheir</h1>
+                <img class="profile-picture pb-5" src="resources/images/samer.png">
+                <br>
+
+                <!--Contact links-->
+                <a href="resources/files/Samer_Elkheir_Resume_Spring_2019.pdf" target="_blank"><img class="icon mx-2" src="resources/images/file.png"></a>
+                <a href="https://www.linkedin.com/in/samerelkheir/" target="_blank"><img class="icon mx-2" src="resources/images/linkedin.png"></a>
+                <a href="https://github.com/samere1" target="_blank"><img class="icon mx-2" src="resources/images/github.png"></a>
+                <a href="mailto:samer.elkheir1@gmail.com"><img class="icon mx-2" src="resources/images/email.png"></a>
+            </div>
+        </div>
+
+
+        <!--About me-->
+        <div class="row justify-content-center pb-5">
+            <div class="text-center col-lg-6">
+                <h1 class="font-weight-bold pb-3" id="about">About Me</h1>
+
+                <p>
+                    My name is Samer Elkheir. I am a third year Computer Science & Mathematics major at Northeastern University.
+                    I became interested in computer science because I love the planning, designing, and problem solving aspects of programming.
+                    I have taken courses in Java, SQL, C, and Racket.
+                    Additionally, I am self-learning HTML, CSS, JavaScript/TypeScript, Bootstrap, and the MEAN stack (MongoDB, Express.js, AngularJS, Node.js).
+                    Besides computer science, I also enjoy volunteer work, strategy games, reading science fiction novels, and learning Arabic.
+                </p>
+            </div>
+        </div>
+        <br>
+
+
+        <!--Projects-->
+        <div class="text-center">
+            <h1 class="font-weight-bold bg-primary" id="projects">Projects</h1>
+            
+            <div class="row justify-content-center bg-image pb-5" style="background-image: url('resources/images/website-portfolio.png')">
+                <div class="col-lg-6 py-5">
+                    <button class="btn btn-secondary btn-lg btn-block mt-5" type="button" data-toggle="collapse" data-target="#website">
+                        <h2>Website Portfolio</h2>
+                    </button>
+
+                    <div id="website" class="collapse bg-project">
+                        <p>
+                            I built this website using HTML, CSS, and Bootstrap.
+                            I use it as a portfolio to display a few of the projects that I have completed.
+                        </p>
+
+                        <div class="row justify-content-center">
+                            <a href="https://github.com/samere1/samere1.github.io" target="_blank" class="btn btn-light" role="button"><img class="icon" src="resources/images/github.png"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center bg-image pb-5" style="background-image: url('resources/images/agenda.png')">
+                <div class="col-lg-6 py-5">
+                    <button class="btn btn-secondary btn-lg btn-block mt-5" type="button" data-toggle="collapse" data-target="#agenda">
+                        <h2>Agenda</h2>
+                    </button>
+
+                    <div id="agenda" class="collapse bg-project">
+                        <p>
+                            I constructed a simple agenda planner web application by utilizing the MEAN stack (MongoDB, Express.js, AngularJS, Node.js) and Bootstrap.
+                            A user can add new tasks with descriptions and due dates, and edit or delete existing tasks.
+                            The purpose of this project was to help me become more familiar with the MEAN stack.
+                        </p>
+
+                        <div class="row justify-content-center">
+                            <a href="https://github.com/samere1/agenda" target="_blank" class="btn btn-light" role="button"><img class="icon" src="resources/images/github.png"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center bg-image pb-5" style="background-image: url('resources/images/animator.png')">
+                <div class="col-lg-6 py-5">
+                    <button class="btn btn-secondary btn-lg btn-block mt-5" type="button" data-toggle="collapse" data-target="#animator">
+                        <h2>Animator</h2>
+                    </button>
+
+                    <div id="animator" class="collapse bg-project">
+                        <p>
+                            I created an animator in Java by using the Model-View-Controller (MVC) and visitor patterns.
+                            The program renders an animation of shapes in a JSwing window by parsing a text file input.
+                            It supports operations such as rotation, color change, and size change.
+                            Additionally, I implemented interactive features, including scrubbing through the animation, changing speed, showing and hiding shapes, and exporting to SVG format.
+                        </p>
+
+                        <div class="row justify-content-center">
+                            <a href="https://github.com/samere1/cs3500-animator" target="_blank" class="btn btn-light" role="button"><img class="icon" src="resources/images/github.png"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center bg-image pb-5" style="background-image: url('resources/images/maze-generator.png')">
+                <div class="col-lg-6 py-5">
+                    <button class="btn btn-secondary btn-lg btn-block mt-5" type="button" data-toggle="collapse" data-target="#maze-generator">
+                        <h2>Maze Generator</h2>
+                    </button>
+
+                    <div id="maze-generator" class="collapse bg-project">
+                        <p>
+                            I designed a maze generator in Java, which uses Kruskal’s algorithm and Union/Find to randomly generate a maze.
+                            To automatically solve the maze, I implemented breadth-first search and depth-first search.
+                            Alternatively, a user can solve the maze themselves through manual player movement.
+                        </p>
+
+                        <div class="row justify-content-center">
+                            <a href="https://github.com/samere1/Maze-Generator" target="_blank" class="btn btn-light" role="button"><img class="icon" src="resources/images/github.png"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center bg-image pb-5" style="background-image: url('resources/images/file-system.jpg')">
+                <div class="col-lg-6 py-5">
+                    <button class="btn btn-secondary btn-lg btn-block mt-5" type="button" data-toggle="collapse" data-target="#file-system">
+                        <h2>File System</h2>
+                    </button>
+
+                    <div id="file-system" class="collapse bg-project">
+                        <p>
+                            I developed a FUSE file system driver in C that mounts a 1MB disk image as a file system, based on the first ext file system for Linux.
+                            While the file system is mounted, all file system operations are handled by the FUSE program, such as creating, deleting, and listing files and (nested) directories, reading and writing from/to small files, creating hard links, and renaming files.
+                            It uses a superblock with an inode and data bitmap to keep track of free inodes and pages.
+                            Each inode keeps track of one file or directory by pointing to a page that holds data for the file or directory that it represents.
+                            It also holds other relevant information (size, reference count, etc.) and metadata.
+                        </p>
+
+                        <div class="row justify-content-center">
+                            <a href="https://github.com/samere1/File-System" target="_blank" class="btn btn-light" role="button"><img class="icon" src="resources/images/github.png"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center bg-image pb-5" style="background-image: url('resources/images/bash-shell.png')">
+                <div class="col-lg-6 py-5">
+                    <button class="btn btn-secondary btn-lg btn-block mt-5" type="button" data-toggle="collapse" data-target="#bash-shell">
+                        <h2>Bash Shell</h2>
+                    </button>
+
+                    <div id="bash-shell" class="collapse bg-project">
+                        <p>
+                            I created a simple Unix shell in C similar to Bash.
+                            The program parses and executes a given script file, or reads and executes inputted lines of commands.
+                            I implemented pipes, input and output redirection, job control, and command chaining.
+                        </p>
+
+                        <div class="row justify-content-center">
+                            <a href="https://github.com/samere1/Bash-Shell" target="_blank" class="btn btn-light" role="button"><img class="icon" src="resources/images/github.png"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <!--Footer-->
+        <footer class="bg-primary py-4">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-6 my-auto">
+                        <h2 class="font-weight-bold">Samer Elkheir</h1>
+                    </div>
+
+                    <div class="col-6">
+                        <a href="resources/files/Samer_Elkheir_Resume_Spring_2019.pdf" target="_blank"><img class="icon mx-2" src="resources/images/file.png"></a>
+                        <a href="https://www.linkedin.com/in/samerelkheir/" target="_blank"><img class="icon mx-2" src="resources/images/linkedin.png"></a>
+                        <a href="https://github.com/samere1" target="_blank"><img class="icon mx-2" src="resources/images/github.png"></a>
+                        <a href="mailto:samer.elkheir1@gmail.com"><img class="icon mx-2" src="resources/images/email.png"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        
+        <!--JavaScript imports-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src='js/bootstrap.min.js'></script>
+        <script type="text/javascript" src='js/main.js'></script> 
+    </body>
+</html>

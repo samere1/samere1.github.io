@@ -1,0 +1,76 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+h2 {
+    margin-bottom: 0px;
+}
+
+p {
+    font-size: 130%;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.profile-picture {
+    max-width: 35%;
+}
+
+.icon {
+    width: 48px;
+    height: 48px;
+}
+
+.bg-primary {
+    background-color: rgb(73, 162, 226) !important;
+}
+
+#projects {
+    padding-top: 70px;
+    margin-bottom: 0px;
+}
+
+.bg-image {
+    background: no-repeat center center scroll;
+    background-size: cover;
+}
+
+.bg-project {
+    background-color: rgb(0, 0, 0, 0.6);
+    color: white;
+    border-radius: 1%;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.bg-project p {
+    padding-top: 25px;
+}
+
+.bg-project div a {
+    margin-bottom: 25px;
+}
+
+.btn-secondary {
+    background-color: rgb(0, 0, 0, 0.9);
+}
+
+.collapsing {
+    background-color: transparent;
+}
